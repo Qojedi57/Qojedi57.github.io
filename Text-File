@@ -1,0 +1,17 @@
+Bulma CSS Library
+  The css library Bulma is a mobile first css framework giving optimum site responsiviness.
+The Bulma sites gives comprehensive documentation to aid you receive the most out of Bulma
+css framework. Bulma can work with many other major browser options. Bulma comes with much 
+of components people need to give a site functional appearance includes dropdown menus, 
+navigation bars, panels, tabs, and tables. Bulma may be a relative newcomer, but you 
+would not know it from looking at its updatw history. 
+  Bulma has the most readable css classes compared to other css frameworks. With Bulma, flexbox 
+behavior most other things can be handled with HTML classes. The framework like Bulma saves 
+time by implementing more involved CSS effects for you. Bulma is based of flexbox, its built-in 
+components are responsive by design this means that elements will move and scale to fit any screen
+or viewport size. In addition to its basic element classes, Bulma has modifier     classes that add alternative styles to elements. 
+    References:
+Juviler,J.(December 09,2020). The Bulma CSS Framework:What It Is and How To
+Get Started. Blog.hubspot.com/website/bulma-css
+Franklin,W.(October 19,2019). Introduction to Bulma a CSS Framework.
+wftutorials.com/Introduction-to-Bulma-a-CSS-framework

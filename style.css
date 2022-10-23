@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .menu-container {
+    color:#133B4F;
+    background-color: #59cbda;
+    /* Blue */
+    padding: 30px 0;
+    font-size:25px;
+  
+    /* makes the menu-container element a flex container 
+      enables flexbox layout mode - other flexbox properties 
+      will be ignored by the browser if we do not add this */
+    display: flex;
+  
+    /* define the horizontal alignment of the flex container's items */
+    justify-content: center;
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+  .menu {
+    border: 1px solid #333;
+    font-size:30px;
+    width: 900px;
+    /* .menu element is a nested flex container */
+    display: flex;
+    /* distritbute child elements equally */
+    justify-content: space-around;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+   .title{
+    align-items:left;
+    justify-content:left;
+  }
+  .links {
+    border: 1px solid #fff;
+    /* For debugging */
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  /* header section */
+  
+  .header-container {
+    color: #5995DA;
+    background-color: #D6E9FE;
+    display: flex;
+  
+    /* horizontally centers content */
+    justify-content: center;
+  }
+  
+  .header {
+    width: 900px;
+    /* setting the height here dictates the height of the row
+    if it is not set with the height property, rows will be automatically be the height of their content
+    */
+    height: 300px;
+    display: flex;
+    justify-content:center;
+  
+    /* vertically centers content */
+    align-items: center;
+  }
+  
+  div img{
+  width:300px;
+  height:350px;
+  displayflex;
+  justify-content:center;
+  align-items:center;
+  }
+  
+  div h1{
+    font-size:54px;
+    color:#133B4F;
+    text-transform:uppercase;
+    display:flex;
+    justify-content:Center;
+    align-items:center;
+  }
+  
+  div h2{
+    font-size:54px;
+    color:#FCA70C;
+    font-weight:400;
+    text-transform:uppercase;
+    letter-spacing:8px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  
+  div h3{
+    font-size:50px;
+    color:#133B4F;
+    font-weight:400;
+    text-transform:uppercase;
+    letter-spacing:8px;
+    display:flex;
+    justify-content:center;
+    allign-items:center;
+  }
+   
+  .cta{
+    padding:15px 30px;
+    background:#C4c4f7;
+    color:#fff;
+    outline:none;
+    border:none;
+    font-weight:700;
+    text-transform:uppercase;
+    border-radius:50px;
+    justify-content:right;
+    font-size:20px;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+  div p{
+    font-size:25px;
+    font-weight:400;
+    color:#133B4F;
+    line-height:31.5px;
+    margin:30px 0;
+    justify-content:left;
+    align-items:left;
+    font-family: 'Roboto Mono', monospace;
+  }
+  
+  /* Photo grid section */
+  .photo-gcrid-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .photo-grid {
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    /* Adding the following flex-wrap property forces items that don’t fit to get bumped down to the next row: */
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+  }
+  .first-item {
+    order: 1;
+  }
+  
+  .last-item {
+    order: -1;
+  }
+  
+  /* footer section */
+  .footer {
+    background-color:#24262b;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+   h4{
+    font-size:25px;
+    color:orange;
+  }
+  
+  .social-links a{
+    height:40px;
+    width:40px;
+    color:black;
+    font-size:32px;
+  }
+  
+  .social-links a:hover{
+    background-color:#FCA70C;
+  }
